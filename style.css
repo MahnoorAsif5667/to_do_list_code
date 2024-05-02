@@ -1,0 +1,99 @@
+
+
+.heading{
+    font-family: sans-serif;
+    color: #06C5E9;
+    /* font-weight: /00; */
+font-size: 40px;
+font-style: italic;
+}
+.todoList{
+    border: 5px solid whitesmoke;
+    padding: 30px;
+    width: 320px;
+    margin: auto;
+    background-color: #EDFDFD;
+}
+
+.todoList input{
+
+    padding: 8px 8px;
+    width: 300px;
+}
+.previousBut{
+    margin-top: 10px;
+    padding: 5px;
+    width: 130px;
+    margin-left: 20px;
+    color: white;
+    background-color: palevioletred;
+    border: 2px solid whitesmoke;
+
+}
+.innerList{
+    color: blue;
+    border: 2px solid whitesmoke;
+    padding: 6px;
+    background-color: #C4F0F9;
+    
+}
+.editBut{
+    padding: 3px;
+    width: 20px;
+    color: white;
+    background-color: palevioletred;
+    border: 2px solid palevioletred;
+}
+.delBut{
+    padding: 3px;
+    width: 28px;
+    color:white;
+    background-color: palevioletred;
+    border: 2px solid palevioletred;
+}
+@media only screen and (max-width: 398px){
+    .heading{
+        font-family: sans-serif;
+        color: #06C5E9;
+        /* font-weight: /00; */
+    font-size: 30px;
+    font-style: italic;
+    }
+    .todoList{
+        border: 5px solid whitesmoke;
+        padding: 30px;
+        width: 280px;
+        margin: auto;
+        background-color: #EDFDFD;
+    }
+    .todoList input{
+
+        padding: 6px 6px;
+        width: 250px;
+    }
+    .previousBut{
+        margin-top: 10px;
+        padding: 2px;
+        width: 90px;
+        margin-left: 13px;
+        color: white;
+        background-color: palevioletred;
+        border: 2px solid whitesmoke;
+    
+    }
+    .editBut{
+        padding: 2px;
+        width: 17px;
+        color: white;
+        background-color: palevioletred;
+        border: 2px solid palevioletred;
+    }
+    .delBut{
+        padding: 2px;
+        width: 17px;
+        color:white;
+        background-color: palevioletred;
+        border: 2px solid palevioletred;
+    }
+    
+}
